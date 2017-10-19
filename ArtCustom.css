@@ -1,0 +1,230 @@
+@font-face{
+    font-family:Andy;
+    src: url(../assets/Tokyo2097.otf);
+}
+@font-face{
+    
+    font-family:NavText;
+    src: url(../assets/AldotheApache.ttf);
+
+}
+h1{
+    font-family: Andy;
+    color:white;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+h2{
+    font-family: Andy;
+    color:white;
+    padding-left: 140px;
+    font-size: 21px;
+}
+
+h3{
+    font-family: Andy;
+    color:black;
+    padding-left: 0px;
+    font-size: 40px;
+}
+
+p{
+    font-family: NavText;
+   
+    
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+    
+    color: darkgrey;
+	text-decoration: underline;
+
+}
+
+nav{
+    font-size: 200%;
+    position: fixed;
+    top:12px;
+    right:0px;
+    width:1133px;
+    height: 60px;
+    background: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    float: right;
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: NavText;
+}
+
+.Andy{
+    position: fixed;
+    top: 0px;
+    left: 5px;
+    width: 300px;
+    height: 100px;
+    background:black;
+}
+
+.Andy img{
+    float: left;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+#triangle-topleft {
+	width: 10;
+	height: 0;
+	border-top: 100px solid black;
+	border-right: 100px solid transparent;
+    position: fixed;
+    top: 0px;
+    left: 305px;
+}
+
+
+.ArtBody{
+    font-size: 200%;
+    float: right;
+    position: fixed;
+    top:22%;
+    left:5%;
+    right: 5%;
+    bottom: 6%;
+    background: white;
+    border-style: solid;
+    border-width: 5px;
+    padding-left: 30px;
+    padding-top: 0px;
+
+}
+
+.thumbnail:active {
+    position:absolute;
+    top:-25px;
+    left:80px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.MainBody{
+    font-size: 200%;
+    float: right;
+    position: fixed;
+    top:22%;
+    left:5%;
+    right: 5%;
+    bottom: 6%;
+    background: white;
+    border-style: solid;
+    border-width: 5px;
+    padding-left: 30px;
+    padding-top: 70px;
+    
+}
+
+.ArtBody h3{
+    position: relative;
+    bottom: 25px;
+}
+.ArtBody img{
+    
+    position: relative;
+    bottom: 30px;
+    float: left;
+    padding: 0%;
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+
+    
+}
+
+.img2{
+    margin-left: 10px;
+   
+}
+
+.img3{
+    margin-left: 10px;
+   
+}
+
+.img4{
+    margin-left: 10px;
+   
+}
+.SocialMedia{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 350px;
+    height: 60px;
+    background:black;
+    
+}
+
+.SocialMedia img{
+    float: left;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+.bottomText{
+    margin-bottom: 50px;
+}
+
+#triangle-bottomright {
+    width: 0;
+	height: 0;
+	border-bottom: 60px solid black;
+	border-left: 60px solid transparent;
+    position: fixed;
+    bottom: 0px;
+    right: 360px;
+}
+
+/*
+#trapezoid{
+    border-top: 120px solid black;
+    border-right: 100px solid transparent;
+    height:0;
+    width: 350px;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+*/
+
+
+/*
+#trapezoid h1{
+    font-family: Andy;
+    color: white;
+    z-index: -1
+}*/
